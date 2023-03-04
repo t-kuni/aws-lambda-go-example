@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  lambda:
+    build: .
+    ports:
+      - 10000:8080
